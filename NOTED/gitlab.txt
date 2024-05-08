@@ -1,0 +1,40 @@
+git lab sign in with google tiengchamrern2@gmail.com
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <repository_url>
+git branch -M master
+git push -u origin main
+
+git add .
+git commit -m "Your commit message"
+git push origin master
+
+git push -u origin master
+git push origin feature-branch
+git push --tags
+
+github 
+tiengchamrern45@gmail.com
+Ch1234567890@#$
+Chgitchamrern
+
+Bibucket 
+google tiengchamrern2@gmail.com
+
+git init
+git remote add origin 
+git status
+git add -A
+git commit -m ""
+git push origin master
+
+
+chamrerngithub@gmail.com
+CHAMRERNgithub12345678900000
+
+MY ACCOUNT Cloudflare AND Git Hub
+Email: rern078pp@gmail.com
+Pass: RernPP078$@$
+a6bc4408b4a863ae7cdfa1878abc5720ac9d9
+

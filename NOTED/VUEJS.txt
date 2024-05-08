@@ -1,0 +1,15 @@
+npm install -g @vue/cli
+vue create project
+npm install -g vite
+cd project
+npm run serve
+vue add router
+
+
+
+npm init vite@latest my-vue-app -- --template vue
+cd project
+npm install
+npm run dev
+
+npm install vue-router@4

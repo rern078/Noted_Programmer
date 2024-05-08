@@ -1,0 +1,10 @@
+1,    Pattern Searching 
+2,    Divide & Conquer  
+3,    Searching   
+4,    Bitwise     
+5,    Sorting     
+6,    Greedy 
+7,    Recursion 
+8,    Backtracking 
+9,    Mathematiced
+10,  Dynamic Programming

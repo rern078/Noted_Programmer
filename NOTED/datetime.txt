@@ -1,0 +1,39 @@
+<div id="clock"><span class="date">2024-03-22 FRI</span>&nbsp; | &nbsp;<span class="time">09:43:16</span> |</div>
+
+
+<script>
+    function updateClock() {
+        var currentDate = new Date();
+
+        var utcOffset = 7 * 60;
+        var localOffset = currentDate.getTimezoneOffset();
+        currentDate.setMinutes(currentDate.getMinutes() + localOffset + utcOffset);
+
+        var year = currentDate.getFullYear();
+        var month = currentDate.getMonth() + 1;
+        var day = currentDate.getDate();
+        var dayOfWeek = currentDate.getDay();
+        var hours = currentDate.getHours();
+        var minutes = currentDate.getMinutes();
+        var seconds = currentDate.getSeconds();
+
+        var daysOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+        var dayString = daysOfWeek[dayOfWeek];
+
+        var period = hours >= 12 ? 'PM' : 'AM';
+        hours = hours % 12;
+        hours = hours ? hours : 12;
+
+        var formattedDate = year + '-' + pad(month) + '-' + pad(day) + ' ' + dayString;
+        var formattedTime = pad(hours) + ':' + pad(minutes) + ':' + pad(seconds) + ' ' + period;
+
+        var clockDiv = document.getElementById('clock');
+        clockDiv.innerHTML = '<span class="date">' + formattedDate + '</span>&nbsp;<span class="time">' + formattedTime + '&nbsp;(GMT+7)';
+    }
+
+    function pad(number) {
+        return (number < 10 ? '0' : '') + number;
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+</script>

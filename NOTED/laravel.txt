@@ -1,0 +1,13 @@
+composer create-project laravel/laravel example-app
+cd example-app
+composer require laravel/Jetstream
+php artisan jetstream:install livewire
+php artisan jetstream:install livewire --teams
+or
+php artisan jetstream:install inertia
+php artisan jetstream:install inertia --teams
+php artisan jetstream:install inertia --ssr
+php artisan jetstream:install livewire --dark
+npm install
+npm run build
+php artisan migrate

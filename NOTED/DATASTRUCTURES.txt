@@ -1,0 +1,10 @@
+1,    Linked List
+2,    Matrix / Grid 
+3,    Queue      
+4,    Stack 
+5,    Array 
+6,    Hash 
+7,    Heap 
+8,    Graph       
+9,    String      
+10,   Tree 

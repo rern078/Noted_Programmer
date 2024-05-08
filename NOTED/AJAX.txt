@@ -1,0 +1,33 @@
+GET => to fetch data from a server => READ
+POST => to send some data to a server => CREATE
+PUT => to update data at server => UPDATE
+DELETE => to delete data at server => DELETE
+
+1. Create a new server (Node JS)
+2. Custom API with AJAX
+3. Build an application
+
+Employee portal Application
+REST API 
+
+GET -> /api/employees/
+POST -> /api/employees/
+PUT -> /api/employees/:id
+DELETE -> /api/employees/:id
+
+
+express 
+body-parser
+cors
+
+npm install express body-parser cors --save
+
+Test REST API At Server
+1. Postman
+2. Insomnia
+
+
+
+
+
+
