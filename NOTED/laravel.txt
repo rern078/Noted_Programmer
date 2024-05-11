@@ -11,3 +11,12 @@ php artisan jetstream:install livewire --dark
 npm install
 npm run build
 php artisan migrate
+
+
+
+
+clone
+composer install
+php artisan key:generate
+php artisan migrate
+php artisan serve
