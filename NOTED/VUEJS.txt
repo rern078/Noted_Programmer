@@ -13,3 +13,8 @@ npm install
 npm run dev
 
 npm install vue-router@4
+
+mkdir server
+cd server
+npm init -y
+npm install express mongoose body-parser cors
