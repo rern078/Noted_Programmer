@@ -114,9 +114,9 @@ SELECT last_name
 FROM employees
 WHERE last_name LIKE '__a%';
 
---11
-SELECT first_name || q'{,it's assigned Manager ID:}' || manager_id AS "Department and Manager" 
-FROM employees;
+-- --11
+-- SELECT first_name || q'{,it's assigned Manager ID:}' || manager_id AS "Department and Manager" 
+-- FROM employees;
 
 --1
 SELECT *

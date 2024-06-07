@@ -1,0 +1,26 @@
+COMMON COURSE
+MIT801	Human Resource Management
+MIT802	Business Statices
+MIT803	Research Methodology
+MAJOR COURSE
+MIT804	Relational Database Management System
+MIT805	Advance Database Administration Workshop I
+MIT806	Advance Database Administration Workshop II
+MIT807	Software Project Management
+MIT808	Web Application Development
+MIT809	Java Programming with Oracle
+MIT810	Project on Dot Net Framework
+MIT811	Microsoft Network Administration
+MIT812	Advance Microsoft Network Administration
+MIT813	Network Security
+MIT814	Advance Network Security 
+ELECTIVE COURSE
+MIT815	Open Source Mobile Application
+MIT816	IOS Mobile Application
+MIT817	Linux Administration
+MIT818	Advance Linux Administration
+MOE EXAMS	
+MIT-EX1	Database Management and Administration
+MIT-EX2	Information Security
+MIT-EX3	Network Administration
+MIT-EX4	Project Management
