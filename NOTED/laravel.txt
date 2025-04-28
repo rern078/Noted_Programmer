@@ -13,10 +13,31 @@ npm run build
 php artisan migrate
 
 
-
-
 clone
 composer install
 php artisan key:generate
 php artisan migrate
 php artisan serve
+
+
+composer create-project laravel/laravel example-app
+composer require Laravel/ui
+php artisan ui vue --auth
+npm install && npm run dev
+npm install laravel-mix@latest
+npm install vue-loader@^15.9.7
+npm i vue-loader@15.9.7
+
+php artisan make:model Product -mfs
+php artisan make:model Cart -m
+php artisan migrate:fresh --seed
+
+survey +++++++++++
+
+composer create-project laravel/laravel example-app
+npm create vite@latest my-vue-app --template vue
+npm i && npm run dev
+npm install -S vuex@next
+
+npm install tailwindcss @tailwindcss/vite
+npm install @headlessui/vue @heroicons/vue tailwindcss
