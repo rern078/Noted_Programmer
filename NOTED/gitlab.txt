@@ -1,6 +1,7 @@
 git lab sign in with google tiengchamrern2@gmail.com
 tiengCHAMRERN30021110@@##$$
 
+
 git init
 git add .
 git commit -m "Initial commit"
@@ -18,6 +19,25 @@ git push origin master
 git push -u origin master
 git push origin feature-branch
 git push --tags
+
+---------add branch
+
+git checkout -b brand/chamrern
+git add .
+git commit -m "Initial commit on brand/chamrern"
+git push origin brand/chamrern
+
+git pull origin main
+
+--------update file again for each brand
+git checkout brand/your-brand-name
+change file want to edit (nano file.txt)
+git add file.txt
+git commit -m ""
+git fetch origin
+git merge origin/main
+
+
 
 github 
 tiengchamrern45@gmail.com
