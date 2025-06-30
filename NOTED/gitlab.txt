@@ -1,7 +1,6 @@
 git lab sign in with google tiengchamrern2@gmail.com
 tiengCHAMRERN30021110@@##$$
 
-
 git init
 git add .
 git commit -m "Initial commit"
@@ -20,7 +19,7 @@ git push -u origin master
 git push origin feature-branch
 git push --tags
 
----------add branch
+--------- add branch ---------
 
 git checkout -b brand/chamrern
 git add .
@@ -37,8 +36,6 @@ git commit -m ""
 git fetch origin
 git merge origin/main
 git push origin brand/your-brand-name
-
-
 
 github 
 tiengchamrern45@gmail.com
@@ -79,3 +76,17 @@ Pass: RernPP078$@$
 username: if0_38247056!
 password: NOCicaZQPjELHcP
 chamrern.infinityfreeapp.com
+
+if0_38913470
+pPjpef47BLEg
+chamrern.42web.io
+
+chamrern-cv.free.nf
+if0_39279429!
+o0yt6R9MGyCh
+
+
+if0_38913470
+pPjpef47BLEg
+chamrern.42web.io
+
