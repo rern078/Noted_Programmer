@@ -8,6 +8,13 @@ git remote add origin <repository_url>
 git branch -M master
 git push -u origin main
 
+If you want to rebase your local work on top of remote (cleaner history):
+git pull --rebase origin master
+git push -u origin master
+
+If you are sure you want to overwrite remote (discard its commits):
+git push -u origin master --force
+
 git add .
 git commit -m "Your commit message"
 
@@ -73,20 +80,11 @@ infinityfree.com
 Email: rern078pp@gmail.com
 Pass: RernPP078$@$
 
-username: if0_38247056!
-password: NOCicaZQPjELHcP
 chamrern.infinityfreeapp.com
-
-if0_38913470
-pPjpef47BLEg
 chamrern.42web.io
-
 chamrern-cv.free.nf
-if0_39279429!
-o0yt6R9MGyCh
 
+tiengchamrern2@gmail.com
+ch-freshion.wuaze.com/
 
-if0_38913470
-pPjpef47BLEg
-chamrern.42web.io
 
