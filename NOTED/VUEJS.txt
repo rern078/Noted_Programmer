@@ -18,3 +18,55 @@ mkdir server
 cd server
 npm init -y
 npm install express mongoose body-parser cors
+
+
+create project Node Vue React
+
+node -v
+npm -v
+
+mkdir my-node-project
+cd my-node-project
+npm init -y
+
+npm install express cors dotenv
+
+npm create vite@latest my-vue-app
+cd my-vue-app
+npm install
+npm run dev
+
+npm create vite@latest my-react-app
+cd my-react-app
+npm install
+npm run dev
+
+
+Node + Vue or React (One project setup)
+
+my-project/
+├── backend/   (Node + Express)
+└── frontend/  (Vue OR React)
+
+mkdir my-project
+cd my-project
+
+# backend
+mkdir backend
+cd backend
+npm init -y
+npm install express
+
+
+mkdir my-project
+cd my-project
+
+# backend
+mkdir backend
+cd backend
+npm init -y
+npm install express
+
+# frontend
+cd ..
+npm create vite@latest frontend
