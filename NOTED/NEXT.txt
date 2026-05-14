@@ -1,0 +1,48 @@
+composer install
+
+APP_ENV=local
+APP_DEBUG=true
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=booking_system
+DB_USERNAME=postgres
+DB_PASSWORD=2003
+
+php artisan key:generate
+php artisan config:clear
+
+If seed “runs” but data not showing (quick fixes)
+php artisan config:clear
+php artisan cache:clear
+php artisan migrate:fresh --seed
+
+php artisan serve
+
+npm install
+npm run dev
+
+composer install
+copy .env.example .env
+php artisan key:generate
+php artisan migrate
+npm install
+npm run build
+php artisan pail
+php artisan db:seed
+php artisan migrate:fresh --seed
+php artisan serve
+
+
+
+
+========================================= WEDDING PROJECT ===================================
+npm install
+cp .env.example .env
+npx prisma db push
+npm run db:migrate
+npm run db:seed
+npm run dev
+
+npm run build
+npm run start
