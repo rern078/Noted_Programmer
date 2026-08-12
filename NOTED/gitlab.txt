@@ -35,6 +35,14 @@ git push origin brand/chamrern
 
 git pull origin main
 
+
+get all file from main
+git branch
+git fetch origin
+git branch -a
+git pull origin main
+git pull
+
 --------update file again for each brand
 git checkout brand/your-brand-name
 change file want to edit (nano file.txt)
